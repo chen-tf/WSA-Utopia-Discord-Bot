@@ -10,7 +10,7 @@ import tw.waterballsa.utopia.jda.UtopiaListener
  * @author timm
  */
 
-private const val PING_COMMAND_NAME = "ping"
+private const val PING_COMMAND_NAME = "ping
 
 @Component
 class PingPong() : UtopiaListener() {
