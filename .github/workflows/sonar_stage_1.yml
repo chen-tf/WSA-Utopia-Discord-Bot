@@ -1,0 +1,14 @@
+name: SonarCloud(Stage1)
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [ opened, synchronize, reopened ]
+jobs:
+  build:
+    name: Go To run Sonar
+    runs-on: ubuntu-latest
+    steps:
+      - name: Go To run Sonar
+        run: echo "Go To run Sonar"
