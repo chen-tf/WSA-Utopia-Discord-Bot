@@ -7,7 +7,7 @@ on:
     types: [ opened, synchronize, reopened ]
 jobs:
   build:
-    name: Build and analyze
+    name: SonarCloud(Stage1)
     runs-on: ubuntu-latest
     steps:
       - name: Go To run Sonar
